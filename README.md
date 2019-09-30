@@ -96,7 +96,7 @@ document.
 
 ``` r
 my_xml <- "<eg>Node contents</eg>"
-doc <- parse_xml(my_xml, as_document = FALSE)
+doc <- minixml::parse_xml_elem(my_xml)
 doc$update(x = 1, y = 2)$
   add(name = 'inner', 'inner contents')
 
