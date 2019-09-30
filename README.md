@@ -6,7 +6,8 @@
 <!-- badges: start -->
 
 ![](http://img.shields.io/badge/cool-useless-green.svg)
-![](http://img.shields.io/badge/mini-verse-blue.svg)
+![](http://img.shields.io/badge/mini-verse-blue.svg) [![Travis build
+status](https://travis-ci.org/coolbutuseless/minixml.svg?branch=master)](https://travis-ci.org/coolbutuseless/minixml)
 <!-- badges: end -->
 
 `minixml` is a package for building xml documents in R.
